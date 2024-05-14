@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>problema 2</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-   
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="jquery.js"></script>
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="problema1.css">
 </head>
+
 <body class="p-3 mb-2 bg-dark-subtle text-dark-emphasis">
     <div class="container-fluid p-3 mb-3 bg-primary-subtle text-primary-emphasis">
         <div class="row">
             <div class="col-auto">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/Logotipo_de_el_INTECAP.png" class="float-left" style="width: 150px; height: auto;" alt="">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/Logotipo_de_el_INTECAP.png"
+                    class="float-left" style="width: 150px; height: auto;" alt="">
             </div>
             <div class="col"></div> <!-- Esta columna vacía separa el primer elemento del resto -->
-            
+
         </div>
     </div>
     </div>
@@ -43,81 +45,83 @@
                         <a class="nav-link" href="problema3.html">problema 4</a>
                     </li>
                 </ul>
-                <span class="navbar-text">
 
-                </span>
             </div>
         </div>
     </nav>
-<br>
+    <br>
 
 
-<div class="container text-center rounded-4 bg-success-subtle text-success-emphasis">
-            <div class="row">
-                
-                
-                <div class="col-12 col-md-9 order-md-1 border 1px bg-success-subtle text-success-emphasis" >
-                    <div class="container text-center">
-                        <div class="row">
-                            <div class="col-12 col-md-6 order-md-1 border 1px">
-                               
+    <div class="container text-center rounded-4 bg-success-subtle text-success-emphasis">
+        <div class="row">
 
+            <!-- FORMULARIO -->
+            <div class="col-12 col-md-9 order-md-1 border 1px bg-success-subtle text-success-emphasis">
+                <div class="container text-center">
+                    <div class="row">
+                        <div class="col-12 col-md-8 order-md-1 border 1px">
 
-                            <h1>aca agregar sus problemas</h1>
-                            
-                            
-                            
-                            
-                        
-                        
-                        
-                        
-                        </div>   
-
-                            
+                            <br>
+                            <!-- FORMULARIO -->
+                            <form class="border p-5">
+                                <div class="mb-3">
+                                    <label for="texto1" class="form-label">Introduzca el primer texto:</label>
+                                    <input type="text" class="form-control" id="texto1" autocomplete="off">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="texto2" class="form-label">Introduzca el segundo texto:</label>
+                                    <input type="text" class="form-control" id="texto2" autocomplete="off">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="numero1" class="form-label">Introduzca el primer numero:</label>
+                                    <input type="number" class="form-control" id="numero1" autocomplete="off">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="numero2" class="form-label">Introduzca el segundo numero:</label>
+                                    <input type="number" class="form-control" id="numero2" autocomplete="off">
+                                </div>
+                                <br>
+                                <div class="mb-3">
+                                    <button type="button" onclick="obtenerLargoTextos()"
+                                        class="btn btn-primary form-control">Obtener el largo de los textos</button>
+                                </div>
+                                <div class="mb-3">
+                                    <button type="button" onclick="obtenerPromedio()"
+                                        class="btn btn-warning form-control">Indicar si el promedio y el largo de los textos es mayor, menor o iguales</button>
+                                </div>
+                                <div class="mb-3">
+                                    <button type="button" onclick="formarTexto()"
+                                        class="btn btn-success form-control">Formar un texto</button>
+                                </div>
+                            </form>
+                            <br>
                         </div>
-                        
-                        
-                        <br>
-                        <p id="resultado" class="badge text-bg-success rounded-5 "> resutado:</p>
+                    </div>
+
++
+                    <br>
+                    <p id="resultado" class="badge text-bg-success rounded-5 "> resutado:</p>
 
                 </div>
 
-<br>
+                <br>
 
-                </div>
-            
-                <div class="col-12 col-md-3 order-md-1 border 1px rounded-4 ">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw1Mardt46fwtEjqJKUMCVqIZImpa1gVwQzh7ACmqKqg&s"
-                        alt="">
+            </div>
 
 
-                </div>    
+            <!-- IMAGEN FLOTANTE -->
+            <div class="col-12 col-md-3 order-md-1 border 1px rounded-4 ">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw1Mardt46fwtEjqJKUMCVqIZImpa1gVwQzh7ACmqKqg&s"
+                    alt="">
+            </div>
+        </div>
+    </div>
 
-
-
-
-</div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
+    <script src="problema1.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
