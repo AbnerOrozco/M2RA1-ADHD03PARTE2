@@ -1,9 +1,9 @@
 # M1 RA3 - AAT 01
 ## INTECAP
 
-- Fecha: 08/05/2024
+- Fecha: 14/05/2024
 - Carrera: Desarrollador FullStack
-- Modulo 1 - Resultado de Aprendizaje 3
+- Modulo 1 - Resultado de Aprendizaje 
 
 | Plugin | README |
 | ------ | ------ |
