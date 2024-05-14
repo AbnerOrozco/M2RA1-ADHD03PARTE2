@@ -14,7 +14,7 @@
 
 ### Descripcion del proyecto
 > El proyecto cuenta con 4 páginas: Solucion1, Solucion2, Solucion3 y Solucion 4.
-
+>
 > Las tecnologías utilizadas fueron: HTML, CSS (Boostrap) y JavaScript.
 
 ![HTML](https://img.shields.io/badge/-HTML-2a0505?style=flat&logo=HTML5)&nbsp;
