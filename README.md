@@ -3,7 +3,7 @@
 
 - Fecha: 14/05/2024
 - Carrera: Desarrollador FullStack
-- Modulo 1 - Resultado de Aprendizaje 
+- Modulo 2 - Resultado de Aprendizaje 
 
 | Plugin | README |
 | ------ | ------ |
