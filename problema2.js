@@ -21,11 +21,8 @@ function obtenerLargoTextos(){
         concatenar = texto1.length + texto2.length;
 
 
-        resultado = document.getElementById("resultado").innerHTML = "El largo de los textos es " + concatenar;
-
-         
+        resultado = document.getElementById("resultado").innerHTML = "El largo de los textos es " + concatenar;      
 }
-
 
 function obtenerPromedio(){
 
@@ -67,7 +64,7 @@ function formarTexto(){
     lastTexto2 = texto2.charAt(texto2.length -1);
 
 
-        resultado = document.getElementById("resultado").innerHTML = "Palbra formada " + 
+        resultado = document.getElementById("resultado").innerHTML = "Texto formado " + 
         firstTexto1 + lastTexto1 + firstTexto2 + lastTexto2 + promedio;
 
    
