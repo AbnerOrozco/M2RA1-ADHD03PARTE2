@@ -15,6 +15,8 @@
 ### Descripcion del proyecto
 > El proyecto cuenta con 4 páginas: Solucion1, Solucion2, Solucion3 y Solucion 4.
 >
+> La solución 1 permite el ingreso de 5 textos y con diferentes botones se seleccionaran para concatenar los textos, indicar cual posee mayor longitud y formar una palabra con la ultima letra de cada texto.
+> 
 > Las tecnologías utilizadas fueron: HTML, CSS (Boostrap) y JavaScript.
 
 ![HTML](https://img.shields.io/badge/-HTML-2a0505?style=flat&logo=HTML5)&nbsp;
