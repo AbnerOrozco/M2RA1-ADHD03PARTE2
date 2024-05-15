@@ -17,6 +17,8 @@
 > El proyecto cuenta con 4 páginas: Solucion1, Solucion2, Solucion3 y Solucion 4.
 >
 > La solución 1 permite el ingreso de 5 textos y con diferentes botones se seleccionaran para concatenar los textos, indicar cual posee mayor longitud y formar una palabra con la ultima letra de cada texto.
+>
+> La solución 2 crear un formulario que solicite el ingreso de 4 valores numéricos y con ellos deberá realizar lo siguiente: calcular el promedio, indicar si los valores son iguales o distintos, mostrar el valor mayor.
 > 
 > Las tecnologías utilizadas fueron: HTML, CSS (Boostrap) y JavaScript.
 
