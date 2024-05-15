@@ -11,10 +11,14 @@ function operacionSeleccionada(operacion) {
   
     let resultado = "";
     switch(operacion) {
+
+        //CALCULAR EL PROMEDIO
         case "promedio":
             const promedio = (numero1 + numero2 + numero3 + numero4) / 4;
-            resultado = `Promedio: ${promedio.toFixed(2)}`;
+            resultado = `El promedio es de: ${promedio.toFixed(2)}`;
             break;
+
+        //INDICAR SI LOSVALORS SON IGUALES O DIFERENTES
         case "indicarValores":
             if (numero1 === numero2 && numero2 === numero3 && numero3 === numero4) {
                 resultado = "Todos los números son iguales";
@@ -22,6 +26,8 @@ function operacionSeleccionada(operacion) {
                 resultado = "Los números son diferentes";
             }
             break;
+
+        //MOSTRAR EL VALOR MAYOR
         case "valorMayor":
             let valorMayor = Math.max(numero1, numero2, numero3, numero4);
             resultado = `El valor mayor es: ${valorMayor}`;
@@ -32,5 +38,5 @@ function operacionSeleccionada(operacion) {
     }
   
     $("#resultado").text(resultado);
-    $("#txt-resultado").hide(); // Oculta el elemento con ID txt-resultado
+    $("#txt-resultado").hide(); 
 }
