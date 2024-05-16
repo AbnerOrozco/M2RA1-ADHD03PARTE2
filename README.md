@@ -10,7 +10,7 @@
 | 2023-023346 | Axel Alvarez    |
 | 2021-029637 | Abner Orozco    |
 | 2024-007441 | Gary Santos     |
-|             | Joselyn Mendoza |
+| 2020-030618 | Joselyn Mendoza |
 
 
 ### Descripcion del proyecto
